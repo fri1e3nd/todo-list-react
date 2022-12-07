@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.addTask {
+  width: 100%;
+  border: 1px solid rgba(54, 59, 66, 1);
+  border-radius: 3px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(201, 209, 217, 1);
+  padding: 4px 12px;
+  margin-right: 10px;
+  &:focus {
+    border: 1px solid rgba(88, 166, 255, 1); 
+  }
+}
+
+.saveTask {
+  background: rgba(31, 111, 235, 1);
+  border: 1px solid rgba(52, 125, 237, 1);
+  border-radius: 3px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  white-space: nowrap;
+  padding: 4px 12px;
+  transition: .2s all ease;
+  &:hover {
+    background: rgba(56, 139, 253, 1);
+  }
+}

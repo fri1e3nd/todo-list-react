@@ -1,0 +1,27 @@
+.wrapper {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  background: rgba(33, 38, 45, 1);
+  border: 1px solid rgba(54, 59, 66, 1);
+  border-radius: 3px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color:  rgba(201, 209, 217, 1);
+  padding: 4px 12px;
+  margin-right: 10px;
+  transition: .2s all ease;
+  &:last-child {
+    margin-right: 0;
+  }
+  &:hover {
+    border: 1px solid rgba(139, 148, 158, 1);
+    background: rgba(48, 54, 61, 1);
+    color: rgba(255, 255, 255, 1);
+  }
+}
